@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: travel
+  datasource:
+    username: root
+    password: cD245852
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/travel?serverTimezone=GMT
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl # mybatis日志
+  mapper-locations: classpath:mapper/*.xml
